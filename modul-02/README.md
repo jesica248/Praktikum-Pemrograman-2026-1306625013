@@ -20,20 +20,18 @@ $$F(n) = \{\, f \in \mathbb{Z}^{+} \mid 1 \le f \le n,\ n \bmod f = 0 \,\}$$
 
 Contoh: $15 \bmod 3 = 0$ maka 3 adalah faktor 15, sedangkan $15 \bmod 4 = 3 \neq 0$ maka 4 bukan faktor 15.
 ## 3. Algorithm
-> 1. Mulai
-2. Print "Program Faktor Bilangan"
-3. Print "Nama : Jesica Elisabeth Hasibuan"
-4. Print "NIM : 1306625013"
-5. Ulangi terus-menerus (while True):
-   5.1 Input data: "Masukan sembarang bilangan < 100 ( masukan 0 untuk selesai) : "
-   5.2 Jika data bukan bilangan bulat: Print "Input tidak valid", kembali ke langkah 5 (konektor A)
-   5.3 Ubah data menjadi bilangan bulat: n = int(data)
-   5.4 Jika n = 0: Print "SELESAI", keluar dari loop (break)
-   5.5 Jika n < 0 atau n ≥ 100: Print pesan kesalahan, kembali ke langkah 5 (konektor A)
-   5.6 Buat list kosong: faktor = [ ], dan f = 1
-   5.7 Selama f ≤ n:
-     5.7.1 Jika n mod f = 0: tambahkan f ke list faktor (faktor.append(f))
-     5.7.2 f = f + 1
-     5.7.3 Print "Bilangan n → Faktornya = faktor", lalu kembali ke langkah 5 (konektor A)
-6. Print "Selesai"
-7. Selesai
+>
+1.Mulai
+2.Print judul "Program Faktor Bilangan"
+3.Print "Nama: Jesica Elisabeth Hasibuan"
+4.Print "NIM: 1306625013"
+5.Input $n$ ("Masukan sembarang bilangan < 100 (masukan 0 untuk selesai)")
+6.Selama $n \neq 0$, ulangi langkah 7 sampai 12
+7.Buat list kosong faktor = []
+8.Set $d = 1$
+9.Selama $d \le n$: jika $n \bmod d = 0$, tambahkan $d$ ke faktor
+10.Naikkan $d$ sebesar 1 ($d = d + 1$), kembali ke langkah 9 sampai $d > n$
+11.Print "Bilangan $n$ → Faktornya = faktor"
+12.Input $n$ berikutnya
+13.Jika $n = 0$, keluar dari perulangan, print "*SELESAI*"
+14.Selesai
