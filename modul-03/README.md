@@ -9,10 +9,6 @@
 ## 1. Problem Statement
 > Membuat program untuk menghitung nilai sin dan cos dengan pendekatan deret Mc Laurin
 ## 2. Mathematical Equation
-Berikut adalah isi lengkap untuk bagian **2. Mathematical Equation** yang menggunakan simbol sigma ($\sum$) dan rumus persentase error $\frac{\vert{}AV - TV\vert{}}{TV} \times 100\%$:
-
-```markdown
-Deret Maclaurin merupakan kasus khusus dari deret Taylor yang diekspansi di sekitar titik $x = 0$.
 
 ### a. Konversi Satuan Sudut
 Sebelum dihitung menggunakan deret Maclaurin, sudut $x$ dalam satuan derajat ($\text{deg}$) dikonversi ke satuan radian ($\text{rad}$):
