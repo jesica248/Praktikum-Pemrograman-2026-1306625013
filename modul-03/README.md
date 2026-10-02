@@ -10,12 +10,6 @@
 > Membuat program untuk menghitung nilai sin dan cos dengan pendekatan deret Mc Laurin
 ## 2. Mathematical Equation
 
-### a. Konversi Satuan Sudut
-Sebelum dihitung menggunakan deret Maclaurin, sudut $x$ dalam satuan derajat ($\text{deg}$) dikonversi ke satuan radian ($\text{rad}$):
-$$x_{\text{rad}} = x_{\text{deg}} \times \frac{\pi}{180}$$
-
----
-
 ### b. Deret Maclaurin untuk Sinus ($\sin x$)
 Persamaan analitik deret Maclaurin untuk fungsi sinus disajikan dalam bentuk deret/sigma:
 $$\sin(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \dots$$
