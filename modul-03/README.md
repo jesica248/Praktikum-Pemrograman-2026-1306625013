@@ -9,7 +9,7 @@
 ## 1. Problem Statement
 > Membuat program untuk menghitung nilai sin dan cos dengan pendekatan deret Mc Laurin
 ## 2. Mathematical Equation
-Berikut adalah format teks Markdown/LaTeX lengkap yang sudah disesuaikan persis untuk mengisi bagian **2. Mathematical Equation** pada file `README.md` modul Anda:
+Berikut adalah isi lengkap untuk bagian **2. Mathematical Equation** yang siap disalin langsung ke editor GitHub Anda:
 
 ```markdown
 Deret Maclaurin merupakan kasus khusus dari deret Taylor yang diekspansi di sekitar titik $x = 0$.
@@ -25,6 +25,7 @@ Persamaan analitik deret Maclaurin untuk fungsi sinus:
 $$\sin(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \dots$$
 
 **Formulasi Rekursif Numerik:**
+Untuk komputasi yang efisien, suku ke-$n$ ($u_n$) dihitung berdasarkan suku sebelumnya ($u_{n-1}$):
 $$u_n = -u_{n-1} \times \frac{x^2}{2n(2n+1)}$$
 dengan suku awal $u_0 = x$.
 
@@ -35,21 +36,21 @@ Persamaan analitik deret Maclaurin untuk fungsi kosinus:
 $$\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots$$
 
 **Formulasi Rekursif Numerik:**
+Suku ke-$n$ ($v_n$) dihitung berdasarkan suku sebelumnya ($v_{n-1}$):
 $$v_n = -v_{n-1} \times \frac{x^2}{(2n-1)2n}$$
 dengan suku awal $v_0 = 1$.
 
 ---
 
 ### d. Perhitungan Galat Relatif (Persentase Error)
-Perhitungan persentase galat (*error*) antara nilai aproksimasi deret (*Actual Value* / $AV$) dan nilai eksak (*True Value* / $TV$):
+Perhitungan galat relatif dilakukan untuk mengukur akurasi hasil pendekatan deret Maclaurin (*Actual Value* / $AV$) terhadap nilai persis dari fungsi pustaka (*True Value* / $TV$):
 $$\text{Error (\%)} = \left\vert{} \frac{AV - TV}{TV} \right\vert{} \times 100\%$$
 
 **Keterangan:**
-* $AV$ (*Actual Value*) = Nilai aproksimasi hasil perhitungan deret Maclaurin.
-* $TV$ (*True Value*) = Nilai eksak dari fungsi bawaan pustaka Python (`math.sin` atau `math.cos`).
+* $AV$ (*Actual Value*) = Nilai aproksimasi deret Maclaurin hasil program.
+* $TV$ (*True Value*) = Nilai eksak menggunakan fungsi pustaka Python (`math.sin` atau `math.cos`).
 
 ```
-
 
 
 ## 3. Algorithm
