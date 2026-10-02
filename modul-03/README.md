@@ -9,7 +9,9 @@
 ## 1. Problem Statement
 > Membuat program untuk menghitung nilai sin dan cos dengan pendekatan deret Mc Laurin
 ## 2. Mathematical Equation
-Berikut adalah isi lengkap untuk bagian **2. Mathematical Equation** yang siap disalin langsung ke editor GitHub Anda:
+Di file **README.md** kamu saat ini, poin **a, b, dan c** terhapus secara tidak sengaja sehingga langsung melompat ke poin **d**.
+
+Berikut adalah kode Markdown lengkap untuk bagian **2. Mathematical Equation** agar strukturnya utuh kembali:
 
 ```markdown
 Deret Maclaurin merupakan kasus khusus dari deret Taylor yang diekspansi di sekitar titik $x = 0$.
@@ -41,6 +43,19 @@ $$v_n = -v_{n-1} \times \frac{x^2}{(2n-1)2n}$$
 dengan suku awal $v_0 = 1$.
 
 ---
+
+### d. Perhitungan Galat Relatif (Persentase Error)
+Perhitungan galat relatif dilakukan untuk mengukur akurasi hasil pendekatan deret Maclaurin (*Actual Value* / $AV$) terhadap nilai persis dari fungsi pustaka (*True Value* / $TV$):
+$$\text{Error (\%)} = \left\vert{} \frac{AV - TV}{TV} \right\vert{} \times 100\%$$
+
+**Keterangan:**
+* $AV$ (*Actual Value*) = Nilai aproksimasi deret Maclaurin hasil program.
+* $TV$ (*True Value*) = Nilai eksak menggunakan fungsi pustaka Python (`math.sin` atau `math.cos`).
+
+```
+
+Kamu bisa menyalin seluruh blok kode di atas dan menempelkannya (*paste*) di antara baris `## 2. Mathematical Equation` dan `## 3. Algorithm` pada editor GitHub kamu.
+
 
 ### d. Perhitungan Galat Relatif (Persentase Error)
 Perhitungan galat relatif dilakukan untuk mengukur akurasi hasil pendekatan deret Maclaurin (*Actual Value* / $AV$) terhadap nilai persis dari fungsi pustaka (*True Value* / $TV$):
