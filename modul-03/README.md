@@ -9,11 +9,13 @@
 ## 1. Problem Statement
 > Membuat program untuk menghitung nilai sin dan cos dengan pendekatan deret Mc Laurin
 ## 2. Mathematical Equation
-Berikut adalah susunan lengkap persamaan LaTeX untuk **Deret Maclaurin Sinus**, **Kosinus**, dan **Galat/Error Relative** yang siap langsung disalin ke bagian **2. Mathematical Equation** pada file `README.md` Anda:
+Berikut adalah format teks Markdown/LaTeX lengkap yang sudah disesuaikan persis untuk mengisi bagian **2. Mathematical Equation** pada file `README.md` modul Anda:
 
 ```markdown
+Deret Maclaurin merupakan kasus khusus dari deret Taylor yang diekspansi di sekitar titik $x = 0$.
+
 ### a. Konversi Satuan Sudut
-Sebelum dihitung dengan deret Maclaurin, sudut $x$ dalam satuan derajat ($\text{deg}$) dikonversi ke satuan radian ($\text{rad}$):
+Sebelum dihitung menggunakan deret Maclaurin, sudut $x$ dalam satuan derajat ($\text{deg}$) harus dikonversi ke satuan radian ($\text{rad}$):
 $$x_{\text{rad}} = x_{\text{deg}} \times \frac{\pi}{180}$$
 
 ---
@@ -24,7 +26,7 @@ $$\sin(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}
 
 **Formulasi Rekursif Numerik:**
 $$u_n = -u_{n-1} \times \frac{x^2}{2n(2n+1)}$$
-dengan suku pertama $u_0 = x$.
+dengan suku awal $u_0 = x$.
 
 ---
 
@@ -34,19 +36,21 @@ $$\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!}
 
 **Formulasi Rekursif Numerik:**
 $$v_n = -v_{n-1} \times \frac{x^2}{(2n-1)2n}$$
-dengan suku pertama $v_0 = 1$.
+dengan suku awal $v_0 = 1$.
 
 ---
 
 ### d. Perhitungan Galat Relatif (Persentase Error)
-Perhitungan persentase galat (*error*) antara nilai aproksimasi deret (*Actual Value* / $AV$) dengan nilai eksak (*True Value* / $TV$):
+Perhitungan persentase galat (*error*) antara nilai aproksimasi deret (*Actual Value* / $AV$) dan nilai eksak (*True Value* / $TV$):
 $$\text{Error (\%)} = \left\vert{} \frac{AV - TV}{TV} \right\vert{} \times 100\%$$
 
-Keterangan:
+**Keterangan:**
 * $AV$ (*Actual Value*) = Nilai aproksimasi hasil perhitungan deret Maclaurin.
-* $TV$ (*True Value*) = Nilai eksak dari fungsi bawaan/pustaka (misalnya `math.sin` atau `math.cos`).
+* $TV$ (*True Value*) = Nilai eksak dari fungsi bawaan pustaka Python (`math.sin` atau `math.cos`).
 
 ```
+
+
 
 ## 3. Algorithm
 > Tuliskan langkah-langkah logika penyelesaian masalah secara sistematis sebelum diimplementasikan ke dalam kode Python (`main.py`).
