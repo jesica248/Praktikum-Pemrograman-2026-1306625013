@@ -18,7 +18,7 @@ $$\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!}
 ### c. Perhitungan Galat Relatif (Persentase Error)
 ### c. Perhitungan Galat Relatif (Persentase Error)
 $$
-\text{Error (%)} = \left| \frac{AV - TV}{TV} \right| \times 100\mathrm{\%}
+\text{Error % = \left| \frac{AV - TV}{TV} \right| \times 100\mathrm{\%}
 $$
 ## 3. Algorithm
 > Tuliskan langkah-langkah logika penyelesaian masalah secara sistematis sebelum diimplementasikan ke dalam kode Python (`main.py`).
