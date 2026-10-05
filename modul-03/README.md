@@ -9,40 +9,12 @@
 ## 1. Problem Statement
 > Membuat program untuk menghitung nilai sin dan cos dengan pendekatan deret Mc Laurin
 ## 2. Mathematical Equation
-
-### b. Deret Maclaurin untuk Sinus ($\sin x$)
-Persamaan analitik deret Maclaurin untuk fungsi sinus disajikan dalam bentuk deret/sigma:
+### a. Deret Maclaurin untuk Sinus ($\sin x$)
 $$\sin(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \dots$$
-
-**Formulasi Rekursif Numerik:**
-$$u_n = -u_{n-1} \times \frac{x^2}{2n(2n+1)}$$
-dengan suku awal $u_0 = x$.
-
----
-
-### c. Deret Maclaurin untuk Kosinus ($\cos x$)
-Persamaan analitik deret Maclaurin untuk fungsi kosinus disajikan dalam bentuk deret/sigma:
+### b. Deret Maclaurin untuk Kosinus ($\cos x$)
 $$\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots$$
-
-**Formulasi Rekursif Numerik:**
-$$v_n = -v_{n-1} \times \frac{x^2}{(2n-1)2n}$$
-dengan suku awal $v_0 = 1$.
-
----
-
-### d. Perhitungan Galat Relatif (Persentase Error)
-Perhitungan persentase galat (*error*) antara nilai hasil aproksimasi deret (*Actual Value* / $AV$) dan nilai eksak pustaka (*True Value* / $TV$):
+### c. Perhitungan Galat Relatif (Persentase Error)
 $$\text{Error (\%)} = \left\vert{} \frac{AV - TV}{TV} \right\vert{} \times 100\%$$
-
-**Keterangan:**
-* $AV$ (*Actual Value*) = Nilai aproksimasi hasil perhitungan deret Maclaurin.
-* $TV$ (*True Value*) = Nilai eksak dari fungsi bawaan pustaka Python (`math.sin` atau `math.cos`).
-
-```
-
-Salin teks di atas dan tempelkan tepat di bawah baris `## 2. Mathematical Equation` (baris 11) pada editor GitHub kamu.
-
-
 
 ## 3. Algorithm
 > Tuliskan langkah-langkah logika penyelesaian masalah secara sistematis sebelum diimplementasikan ke dalam kode Python (`main.py`).
