@@ -16,7 +16,10 @@ $$\sin(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}
 $$\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots$$
 
 ### c. Perhitungan Galat Relatif (Persentase Error)
+<div align="center">
+
 Error (%) = $\left| \frac{AV - TV}{TV} \right| \times 100\%$
 
+</div>
 ## 3. Algorithm
 > Tuliskan langkah-langkah logika penyelesaian masalah secara sistematis sebelum diimplementasikan ke dalam kode Python (`main.py`).
