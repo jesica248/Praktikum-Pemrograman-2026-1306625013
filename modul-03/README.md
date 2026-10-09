@@ -22,4 +22,11 @@ Error (%) = $\left| \frac{AV - TV}{TV} \right| \times 100\%$
 
 </div>
 ## 3. Algorithm
-> Tuliskan langkah-langkah logika penyelesaian masalah secara sistematis sebelum diimplementasikan ke dalam kode Python (`main.py`).
+1.Mulai
+2.Cetak "Pemrograman Sinus Cosinus"
+3.Cetak "Nama : Jesica Elisabeth Hasibuan"
+4.Cetak "NIM : 1306625013"
+5.Import Library Math
+6.Inisiasi Ulang = "yay" 
+7. Cetak "Selesai"
+8. Selesai
