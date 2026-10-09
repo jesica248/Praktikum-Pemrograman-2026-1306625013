@@ -21,10 +21,10 @@ $$\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!}
 Error (%) = $\left| \frac{AV - TV}{TV} \right| \times 100\%$
 
 </div>
-## 3. Algorithm
-1.Mulai
-2.Cetak "Pemrograman Sinus Cosinus"
-3.Cetak "Nama : Jesica Elisabeth Hasibuan"
+## 3. Algoritma
+>1.Mulai
+>2.Cetak "Pemrograman Sinus Cosinus"
+>3.Cetak "Nama : Jesica Elisabeth Hasibuan"
 4.Cetak "NIM : 1306625013"
 5.Import Library Math
 6.Inisiasi Ulang = "yay" 
