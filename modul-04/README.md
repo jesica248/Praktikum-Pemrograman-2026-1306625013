@@ -19,7 +19,7 @@
 4.Print "NIM : 1306625013"
 5.Input Kelas
 6. Input Nilai Tugas, Kuis, UTS, dan UAS
-7. Hitung Nilai Akhir ($NA = (w_1 \times N_1) + (w_2 \times N_2) + (w_3 \times N_3) + (w_4 \times N_4)$)
+7. Hitung Nilai Akhir (NA = (w_1 \times N_1) + (w_2 \times N_2) + (w_3 \times N_3) + (w_4 \times N_4))
 8. Evaluasi Nilai Akhir untuk menentukan Huruf Mutu (A, B, C, D, E) dan Status Kelulusan
 9. Print "Kelas : " + Kelas
 10. Print "Nilai Akhir : " + Nilai Akhir
