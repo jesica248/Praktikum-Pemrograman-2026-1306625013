@@ -10,7 +10,7 @@
 > Membuat program untuk memodelkan sistem penilaian otomatis (grading) guna menghitung nilai akhir, mengonversi nilai ke huruf mutu, dan menampilkan status kelulusan secara akurat berdasarkan komponen bobot nilai mahasiswa.
 
 ## 2. Mathematical Equation
-> $$NA = (w_1 \times N_1) > Dengan ketentuan:$+ (w_2 \times N_2) + (w_3 \times N_3) + \dots + (w_n \times N_n)$$
+> $$NA = (w_1 \times N_1) $+ (w_2 \times N_2) + (w_3 \times N_3) + \dots + (w_n \times N_n)$$
 
 ## 3. Algorithm
 1.Mulai
