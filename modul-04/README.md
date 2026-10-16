@@ -11,7 +11,6 @@
 
 ## 2. Mathematical Equation
 > $$NA = (w_1 \times N_1) > Dengan ketentuan:$+ (w_2 \times N_2) + (w_3 \times N_3) + \dots + (w_n \times N_n)$$
-NA$ = Nilai Akhir$w_i$ = Bobot persentase komponen penilaian ke-$i$ (di mana total $\sum w_i = 100\%$ atau $1.0$)$N_i$ = Nilai numerik pada komponen ke-$i$
 
 ## 3. Algorithm
 1.Mulai
