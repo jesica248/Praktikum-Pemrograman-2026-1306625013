@@ -1,8 +1,8 @@
 # Modul [05] - [Nama Topik Modul]
 
-**Nama:** [Nama Mahasiswa]  
-**NIM:** [NIM Mahasiswa]  
-**Kelas:** [Kelas/Kelompok]  
+**Nama:** [Jesica Elisabeth Hasibuan]  
+**NIM:** [1306625013]  
+**Kelas:** [Fisika C]  
 
 ---
 
