@@ -15,14 +15,16 @@ a_1 \leq a_2 \leq a_3 \leq \cdots \leq a_n
 \]$$
 
 ## 3. Algorithm
-> 1. Mulai.
-2. Input data: Memasukkan 100 data nilai ujian yang telah diberikan pada Modul 6 ke dalam sebuah list bernama Nilai.
-3. Menampilkan data awal: Menampilkan seluruh nilai ujian sebelum diurutkan, dengan 10 angka pada setiap baris.
-4. Menyalin data: Menyalin Nilai ke dalam list baru agar data awal tetap tersimpan.
-5. Inisialisasi: Menghitung jumlah data dan mengatur variabel ditukar = True sebagai penanda proses pengurutan.
-6. Proses sorting: Membandingkan dua nilai yang bersebelahan menggunakan metode Bubble Sort.
-7. Pertukaran nilai: Jika nilai di sebelah kiri lebih besar daripada nilai di sebelah kanan, kedua nilai ditukar posisinya dan ditukar diatur menjadi True.
-8. Perulangan: Mengulangi proses perbandingan hingga seluruh data diperiksa, kemudian mengulang putaran selama masih ada pertukaran nilai.
-9. Pemeriksaan akhir: Jika tidak ada lagi nilai yang ditukar, proses pengurutan dihentikan karena data sudah terurut dari yang terkecil hingga terbesar.
-10. Menampilkan hasil: Menampilkan data nilai yang sudah terurut, dengan 10 angka pada setiap baris.
-11. Selesai: Menampilkan tulisan selesai dan mengakhiri program.
+>
+1. Mulai.
+2. Input 100 data nilai ujian yang telah diberikan pada Modul 6 ke dalam sebuah list bernama Nilai.
+3. Tampilkan seluruh nilai ujian sebelum diurutkan, dengan 10 angka pada setiap baris.
+4. Salin nilai ke dalam list baru agar data awal tetap tersimpan.
+5. Hitung jumlah data dan mengatur variabel ditukar = True sebagai penanda proses pengurutan.
+6. Bandingkan dua nilai yang bersebelahan menggunakan metode Bubble Sort.
+7. Jika nilai di sebelah kiri lebih besar daripada nilai di sebelah kanan, kedua nilai ditukar posisinya dan ditukar diatur menjadi True.
+8. Mengulangi proses perbandingan hingga seluruh data diperiksa, kemudian mengulang putaran selama masih ada pertukaran nilai.
+9. Jika tidak ada lagi nilai yang ditukar, proses pengurutan dihentikan karena data sudah terurut dari yang terkecil hingga terbesar.
+10. Tampilkan data nilai yang sudah terurut, dengan 10 angka pada setiap baris.
+11. Print "Selesai"
+12. Selesai
