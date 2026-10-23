@@ -10,9 +10,9 @@
 > Membuat program sorting menggunakan Python untuk mengurutkan 100 data nilai ujian yang telah diberikan pada modul, dari nilai terkecil hingga terbesar. Program menggunakan list untuk menyimpan data dan perulangan untuk melakukan proses pengurutan. Hasil program menampilkan data nilai awal dan data nilai yang sudah terurut dengan format yang rapi.
 
 ## 2. Mathematical Equation
-> \[
+> $$\[
 a_1 \leq a_2 \leq a_3 \leq \cdots \leq a_n
-\]
+\]$$
 
 ## 3. Algorithm
 > 1. Mulai.
