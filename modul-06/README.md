@@ -1,4 +1,4 @@
-Modul [05] - [Nama Topik Modul]
+Modul [06] - [Simulasi Bola Jatuh Bebas]
 Nama: [Jesica Elisabeth Hasibuan]
 NIM: [1306625013]
 Kelas: [Fisika C]
